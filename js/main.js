@@ -19,6 +19,7 @@ function updateClock(city, offset) {
 
 function startWorldClock() {
   updateClock("new-york", -5); // New York (UTC-5)
+  updateClock("massachusetts", -5); // massachusetts (UTC-5)
   updateClock("london", 0); // London (UTC+0)
   updateClock("tokyo", 9); // Tokyo (UTC+9)
   updateClock("nigeria", +1); // Nigeria(UTC+1);
