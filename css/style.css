@@ -6,14 +6,17 @@ body {
 }
 
 #clock-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
+  align-items: center;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: auto;
+  height: 100vh;
 }
 
 .clock {
-  background: #ffffff;
+  background: #3333;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -22,7 +25,7 @@ body {
 
 .clock h2 {
   margin: 0;
-  color: blue;
+  color: #c4730a;
   text-wrap: nowrap;
   text-align: center;
 }
