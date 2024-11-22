@@ -23,6 +23,7 @@ function startWorldClock() {
   updateClock("london", 0); // London (UTC+0)
   updateClock("tokyo", 9); // Tokyo (UTC+9)
   updateClock("nigeria", +1); // Nigeria(UTC+1);
+  updateClock("Maine", -5); // Maine(UTC-5);
 
   setInterval(startWorldClock, 1000);
 }
