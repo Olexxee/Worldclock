@@ -18,10 +18,10 @@ function updateClock(city, offset) {
 }
 
 function startWorldClock() {
-  updateClock("new-york", -5); // New York (UTC-5)
+  updateClock("los angeles", -8); // Los angeles (UTC-8)
   updateClock("massachusetts", -5); // massachusetts (UTC-5)
   updateClock("london", 0); // London (UTC+0)
-  updateClock("italy", 1); // Tokyo (UTC+9)
+  updateClock("italy", 1); // Italy (UTC+1)
   updateClock("nigeria", +1); // Nigeria(UTC+1);
   updateClock("maine", -5); // Maine(UTC-5);
 
