@@ -25,7 +25,7 @@ body {
 
 .clock h2 {
   margin: 0;
-  color: #c4730a;
+  color: blue;
   text-wrap: nowrap;
   text-align: center;
 }
